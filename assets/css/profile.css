@@ -1,0 +1,20 @@
+.absolute {
+    position: absolute;
+    padding: 10px;
+    bottom: 0px;
+}
+.relative__block {
+    position: relative;
+}
+.button__delete {
+    background-color: rgb(147, 11, 11);
+    box-shadow: 0px 0px 5px #000;
+    border: none;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    transition: 0.1s;
+}
+.button__delete:hover {
+    background-color: rgb(229, 19, 19);
+}

@@ -1,0 +1,17 @@
+.letter__button {
+    background-color: #005fb2;
+    color: #FFF;
+    border: 1px solid #000;
+    width: 30px;
+    border-radius: 3px;
+    transition: 600ms;
+    margin: 2px auto;
+}
+.letter__button:hover {
+    background-color: #003564;
+    transform: scale(1.5);
+}
+.letter__button:focus {
+    background-color: #003564;
+    transform: scale(1.5);
+}

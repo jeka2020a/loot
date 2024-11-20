@@ -1,0 +1,36 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #005fb2; /* Синий цвет кнопки */
+    color: white; /* Цвет текста */
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #003564; /* Темный синий при наведении */
+  }
+  
+  .pagination button:disabled {
+    background-color: #cccccc; /* Серый цвет для неактивной кнопки */
+    cursor: not-allowed;
+  }
+  
+  .pagination .prev-button {
+    background-color: #00192f; /* Серый цвет для кнопки "Предыдущая" */
+  }
+  
+  .pagination .prev-button:hover {
+    background-color: #00192f; /* Темный серый при наведении */
+  }
+  
